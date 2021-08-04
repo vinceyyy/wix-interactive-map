@@ -1,8 +1,11 @@
 # wix-interactive-map
 
 Place a svg map as iframe on Wix, setting up messaging channel in the iframe and event listener on the parent window for interactivity.
+
 This example uses the map to navigate to different pages, but it can be anything.
+
 To use it, use Embed a Widget and paste the code from `map.html` in. Then open the Dev Mode and paste the code from `eventlistener.js` in.
+
 You may need to change the url in `window.parent.postMessage(region, "https://editor.wix.com");` in `map.html` after publishing the site to make it work.
 
 ## Code Structure
